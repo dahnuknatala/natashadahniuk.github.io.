@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Бруноям</title>
+</head>
+<body>
+ <form action="#" method="post">
+        <fieldset>
+            <legend>Текстовые поля</legend>
+
+            <div>
+                <label for="textField">Однострочное текстовое поле</label>
+                <input id="textField" type="text" placeholder="Text" maxlength="2">
+            </div>
+
+            <div>
+                <label for="passwordField">Поле для пароля</label>
+                <input id="passwordField" type="password">
+            </div>
+
+            <div>
+                <label for="textareaField">Многострочный текст</label>
+                <textarea id="textareaField"></textarea>
+            </div>
+
+            <div>
+                <label for="hiddenField">Скрытое поле</label>
+                <input id="hiddenField" type="hidden">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Загрузка файлов</legend>
+
+            <div>
+                <label for="fileField">Загрузите ваш файл</label>
+                <input id="fileField" type="file">
+            
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Переключатели</legend>
+            <fieldset>
+                <legend>Укажите ваш пол</legend>
+                <label><input name="sex" type="radio">Мужской</label>
+                <label><input name="sex" type="radio">Женский</label>
+                <label><input name="sex" type="radio">Не хочу</label>
+            </fieldset>
+        </fieldset>
+
+ <fieldset>
+            <legend>Флажки</legend>
+                <label><input type="checkbox">Выбери меня</label>
+                <label><input type="checkbox" checked>Не надо меня выбирать</label>
+                <label><input type="checkbox">Сообщение №1</label>
+        </fieldset>
+        <fieldset>
+            <legend>Кнопки</legend>
+
+            <input type="button" value="Обычная кнопка">
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Сброс">
+            <input type="image" src="regbut.jpg" alt="Регистрация">
+        </fieldset>
+
+        <fieldset>
+            <legend>Поле со списком</legend>
+
+            <select>
+                <option value="1">Item 1</option>
+                <option value="2">Item 2</option>
+                <option value="3">Item 3</option>
+                <option value="4">Item 4</option>
+                <option value="5">Item 5</option>
+            </select>
+
+            <select size="5">
+                <option value="1">Item 1</option>
+                <option value="2">Item 2</option>
+                <option value="3">Item 3</option>
+                <option value="4">Item 4</option>
+                <option value="5">Item 5</option>
+                <option value="6">Item 6</option>
+                <option value="7">Item 7</option>
+                <option value="8">Item 8</option>
+                <option value="9">Item 9</option>
+                <option value="10">Item 10</option>
+            </select>
+
+            <select multiple>
+                <option value="1">Item 1</option>
+                <option value="2">Item 2</option>
+                <option value="3">Item 3</option>
+                <option value="4">Item 4</option>
+                <option value="5">Item 5</option>
+            </select>
+
+            <select>
+                <optgroup label="Item group 1">
+                    <option value="1">Item 1</option>
+                    <option value="2">Item 2</option>
+                    <option value="3" selected>Item 3</option>
+                    <option value="4">Item 4</option>
+                    <option value="5">Item 5</option>
+                </optgroup>
+                <optgroup label="Item group 1">
+                    <option value="6">Item 6</option>
+                    <option value="7">Item 7</option>
+                    <option value="8">Item 8</option>
+                    <option value="9">Item 9</option>
+                    <option value="10">Item 10</option>
+                </optgroup>
+            </select>
+
+            <select size="10" multiple>
+                <optgroup label="Item group 1">
+                    <option value="1">Item 1</option>
+                    <option value="2">Item 2</option>
+                    <option value="3" selected>Item 3</option>
+                    <option value="4">Item 4</option>
+                    <option value="5">Item 5</option>
+                </optgroup>
+                <optgroup label="Item group 1">
+                    <option value="6">Item 6</option>
+                    <option value="7">Item 7</option>
+                    <option value="8">Item 8</option>
+                    <option value="9">Item 9</option>
+                    <option value="10">Item 10</option>
+                </optgroup>
+            </select>
+        </fieldset>
+<fieldset>
+        <legend>Еще не много input-ов</legend>
+        <div>
+            <label for="emailField">Адрес электронной почты</label>
+            <input id="emailField" type="email">
+        </div>
+
+        <div>
+            <label for="urlField">Веб-адрес</label>
+            <input id="urlField" type="url">
+        </div>
+
+        <div>
+            <label for="colorField">Выбор цвета</label>
+            <input id="colorField" type="color" value="#ff0000">
+        </div>
+
+        <div>
+            <label for="numberField">Ввод чисел</label>
+            <input id="numberField" type="number" value="6" min="-10" max="10" step="2">
+        </div>
+        <div>
+            <label for="dateField">Календарь</label>
+            <input id="dateField" type="date" value="2015-02-20">
+        </div>
+        <div>
+            <label>Дата и время</label>
+            <input type="datetime-local" value="2015-09-25T12:15">
+        </div>    
+        <div>
+            <label for="searchField">Поле для поиска</label>
+            <input id="searchField" type="search">
+        </div>
+        <div>
+            <label for="phoneField">Поле для телефона</label>
+            <input id="phoneField" type="tel">
+        </div>
+    </fieldset>
+    </form>
+
+      <h1>Заголовок h1</h1>
+    <h2>Заголовок h2</h2>
+    <h3>Заголовок h3</h3>
+    <h4>Заголовок h4</h4>
+    <h5>Заголовок h5</h5>
+    <h6>Заголовок h6</h6>
+    <hr>
+
+    <table border="1px">
+        <tr>
+            <td>1 колонка</td>
+            <td>2 колонка</td>
+            <td>3 колонка</td>
+        </tr>
+        <tr>
+            <td>1 колонка</td>
+            <td>2 колонка</td>
+            <td>3 колонка</td>
+        </tr>
+    </table>
+    <hr>
+</body>
+</html>
+
+
+</body>
+</html>
